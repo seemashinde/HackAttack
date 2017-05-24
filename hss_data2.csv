@@ -1,0 +1,68 @@
+srno,Category,Question,Answer,No,NA,Comment
+1,B,How would you create a taxonomy to identify key customer trends in unstructured data?,Yes,,,"The best way to approach this question is to mention that it is good to check with the business owner and understand their objectives before categorizing the data. Having done this, it is always good to follow an iterative approach by pulling new data samples and improving the model accordingly by validating it for accuracy by soliciting feedback from the stakeholders of the business. This helps ensure that your model is producing actionable results and improving over the time"
+2,B,Python or R Which one would you prefer for text analytics?,Yes,,,"The best possible answer for this would be Python because it has Pandas library that provides easy to use data structures and high performance data analysis tools.
+
+"
+3,B,Which technique is used to predict categorical responses?,Yes,,,Classification technique is used widely in mining for classifying data sets.
+4,B,What is logistic regression? Or State an example when you have used logistic regression recently.,Yes,,,"Logistic Regression often referred as logit model is a technique to predict the binary outcome from a linear combination of predictor variables. For example, if you want to predict whether a particular political leader will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The predictor variables here would be the amount of money spent for election campaigning of a particular candidate, the amount of time spent in campaigning, etc."
+5,B,What are Recommender Systems?,Yes,,,"A subclass of information filtering systems that are meant to predict the preferences or ratings that a user would give to a product. Recommender systems are widely used in movies, news, research articles, products, social tags, music, etc."
+6,B,Does data cleaning plays a vital role in analysis?,Yes,,,"Cleaning data from multiple sources to transform it into a format that data analysts or data scientists can work with is a cumbersome process because - as the number of data sources increases, the time take to clean the data increases exponentially due to the number of sources and the volume of data generated in these sources. It might take up to 80% of the time for just cleaning data making it a critical part of analysis task."
+7,C,"Any difference between univariate, bivariate and multivariate analysis.",Yes,,,"These are descriptive statistical analysis techniques which can be differentiated based on the number of variables involved at a given point of time. For example, the pie charts of sales based on territory involve only one variable and can be referred to as univariate analysis.
+
+If the analysis attempts to understand the difference between 2 variables at time as in a scatterplot, then it is referred to as bivariate analysis. For example, analysing the volume of sale and a spending can be considered as an example of bivariate analysis.
+
+Analysis that deals with the study of more than two variables to understand the effect of variables on the responses is referred to as multivariate analysis."
+8,C,What do you understand by the term Normal Distribution?,Yes,,,"Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. However, there are chances that data is distributed around a central value without any bias to the left or right and reaches normal distribution in the form of a bell shaped curve. The random variables are distributed in the form of an symmetrical bell shaped curve."
+9,C,What is Linear Regression?,Yes,,,Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second variable X. X is referred to as the predictor variable and Y as the criterion variable.
+10,C,What is Interpolation and Extrapolation?,Yes,,,Estimating a value from 2 known values from a list of values is Interpolation. Extrapolation is approximating a value by extending a known set of values or facts.
+11,C, is there any difference between Cluster and Systematic Sampling?,Yes,,,"Cluster sampling is a technique used when it becomes difficult to study the target population spread across a wide area and simple random sampling cannot be applied. Cluster Sample is a probability sample where each sampling unit is a collection, or cluster of elements. Systematic sampling is a statistical technique where elements are selected from an ordered sampling frame. In systematic sampling, the list is progressed in a circular manner so once you reach the end of the list,it is progressed from the top again. The best example for systematic sampling is equal probability method."
+12,C,Are expected value and mean value different?,Yes,,,"They are not different but the terms are used in different contexts. Mean is generally referred when talking about a probability distribution or sample population whereas expected value is generally referred in a random variable context.
+
+For Sampling Data
+
+Mean value is the only value that comes from the sampling data.
+
+Expected Value is the mean of all the means i.e. the value that is built from multiple samples. Expected value is the population mean.
+
+For Distributions
+
+Mean value and Expected value are same irrespective of the distribution, under the condition that the distribution is in the same population."
+13,C,Does P-value signify about the statistical data?,Yes,,,"P-value is used to determine the significance of results after a hypothesis test in statistics. P-value helps the readers to draw conclusions and is always between 0 and 1.
+
+•           P- Value > 0.05 denotes weak evidence against the null hypothesis which means the null hypothesis cannot be rejected.
+
+•           P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
+
+•           P-value=0.05is the marginal value indicating it is possible to go either way"
+14,C,"A test has a true positive rate of 100% and false positive rate of 5%. There is a population with a 1/1000 rate of having the condition the test identifies. Considering a positive test, what is the probability of having that condition?",Yes,,,"Let’s suppose you are being tested for a disease, if you have the illness the test will end up saying you have the illness. However, if you don’t have the illness- 5% of the times the test will end up saying you have the illness and 95% of the times the test will give accurate result that you don’t have the illness. Thus there is a 5% error in case you do not have the illness.
+
+Out of 1000 people, 1 person who has the disease will get true positive result.
+
+Out of the remaining 999 people, 5% will also get true positive result.
+
+Close to 50 people will get a true positive result for the disease.
+
+This means that out of 1000 people, 51 people will be tested positive for the disease even though only one person has the illness. There is only a 2% probability of you having the disease even if your reports say that you have the disease."
+15,C,is there any difference between Supervised Learning an Unsupervised Learning?,Yes,,,"If an algorithm learns something from the training data so that the knowledge can be applied to the test data, then it is referred to as Supervised Learning. Classification is an example for Supervised Learning. If the algorithm does not learn anything beforehand because there is no response variable or any training data, then it is referred to as unsupervised learning. Clustering is an example for unsupervised learning."
+16,,Are you reading about Linux?,No,,,
+17,,Most servers use Windows?,No,,,
+18,, popularity of Linux is growing,No,,,
+19,,have you go to the training day they told us about at the last meeting,No,,,
+20,,are you talking about the computer training,No,,,
+21,,Are you reading about machine learning?,No,,,
+22,,R is better than python?,No,,,
+23,,Are expected value and mean value different?,No,,,"They are not different but the terms are used in different contexts. Mean is generally referred when talking about a probability distribution or sample population whereas expected value is generally referred in a random variable context.
+
+For Sampling Data
+
+Mean value is the only value that comes from the sampling data.
+
+Expected Value is the mean of all the means i.e. the value that is built from multiple samples. Expected value is the population mean.
+
+For Distributions
+
+Mean value and Expected value are same irrespective of the distribution, under the condition that the distribution is in the same population."
+24,, Do gradient descent methods always converge to same point?,No,,,"No, they do not because in some cases it reaches a local minima or a local optima point. You don’t reach the global optima point. It depends on the data and starting conditions"
+25,,"Is Naïve Bayes bad? If yes, under what aspects.",No,,,
+26,,Is it better to have too many false negatives or too many false positives?,No,,,
+27,,A coin is flipped 1000 times and 560 times heads show up. Do you think the coin is biased?,No,,,
